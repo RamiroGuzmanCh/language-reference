@@ -446,5 +446,46 @@ export default defineComponent({
 ```
 
 ---
+## 🎨 Estilos Responsivos (`main.css`)
+
+Es importante aplicar los siguientes cambios en `main.css` para que la aplicación sea responsiva.
+
+```css
+@import './base.css';
+
+#app {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* Diseño para pantallas grandes (comentado por defecto) */
+/*@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}*/
 
 
