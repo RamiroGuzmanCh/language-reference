@@ -319,7 +319,7 @@ import axios from "axios";
 export class EpisodesApiService {
   async getEpisodes() {
     const response = await axios.get("https://api.tvmaze.com/shows/1/episodes");
-    return EpisodesAssembler.toEntitiesFromResponse(response.data);
+    return EpisodesAssembler.toEntitiesFromResponse(response.data.episodes);
   }
 }
 ```
