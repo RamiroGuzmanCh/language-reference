@@ -376,6 +376,14 @@ export default {
 ### episodes-list.component.vue
 
 ```vue
+<style scoped>
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1rem;
+}
+</style>
+
 <template>
   <div class="episodes-grid">
     <EpisodesItem v-for="episode in episodes" :key="episode.id" :episodes="episode" />
