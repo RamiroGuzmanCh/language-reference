@@ -26,9 +26,9 @@ lastpractice
 │   │   ├── services
 │   │   │   ├── episodes.assembler.js
 │   │   │   └── episodes-api.service.js
-│   │   └── public
-│   │       ├── footer-content.component.vue
-│   │       └── language-switcher.component.vue
+│   └── public
+│   │   ├── footer-content.component.vue
+│   │   └── language-switcher.component.vue
 │   │
 ├── App.vue
 ├── i18n.js
