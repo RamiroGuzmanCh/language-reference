@@ -9,6 +9,9 @@ El proyecto debe tener la siguiente estructura:
 lastpractice
 │
 ├── src
+│   ├── locales
+│   │   ├── en.json
+│   │   └── es.json
 │   ├── assets
 │   │   ├── base.css
 │   │   ├── logo.svg
@@ -23,9 +26,6 @@ lastpractice
 │   │   ├── services
 │   │   │   ├── episodes.assembler.js
 │   │   │   └── episodes-api.service.js
-│   │   ├── locales
-│   │   │   ├── en.json
-│   │   │   └── es.json
 │   │   └── public
 │   │       ├── footer-content.component.vue
 │   │       └── language-switcher.component.vue
